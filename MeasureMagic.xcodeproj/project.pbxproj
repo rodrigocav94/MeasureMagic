@@ -11,6 +11,10 @@
 		9FEBB5C92C02599F00E51472 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBB5C82C02599F00E51472 /* ContentView.swift */; };
 		9FEBB5CB2C0259A000E51472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBB5CA2C0259A000E51472 /* Assets.xcassets */; };
 		9FEBB5CE2C0259A000E51472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBB5CD2C0259A000E51472 /* Preview Assets.xcassets */; };
+		9FEBB5D62C02874E00E51472 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBB5D52C02874E00E51472 /* Collection+Extensions.swift */; };
+		9FEBB5D82C02876D00E51472 /* Dimension+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBB5D72C02876D00E51472 /* Dimension+Extensions.swift */; };
+		9FEBB5DB2C0287A200E51472 /* CaseIterableDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBB5DA2C0287A200E51472 /* CaseIterableDimension.swift */; };
+		9FEBB5DD2C0287CB00E51472 /* AvailableMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBB5DC2C0287CB00E51472 /* AvailableMeasure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		9FEBB5C82C02599F00E51472 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FEBB5CA2C0259A000E51472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FEBB5CD2C0259A000E51472 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FEBB5D52C02874E00E51472 /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		9FEBB5D72C02876D00E51472 /* Dimension+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dimension+Extensions.swift"; sourceTree = "<group>"; };
+		9FEBB5DA2C0287A200E51472 /* CaseIterableDimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseIterableDimension.swift; sourceTree = "<group>"; };
+		9FEBB5DC2C0287CB00E51472 /* AvailableMeasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableMeasure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		9FEBB5C52C02599F00E51472 /* MeasureMagic */ = {
 			isa = PBXGroup;
 			children = (
+				9FEBB5DE2C0287DC00E51472 /* Model */,
+				9FEBB5D92C02879000E51472 /* Protocols */,
+				9FEBB5D42C02871500E51472 /* Extensions */,
 				9FEBB5C62C02599F00E51472 /* MeasureMagicApp.swift */,
 				9FEBB5C82C02599F00E51472 /* ContentView.swift */,
 				9FEBB5CA2C0259A000E51472 /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				9FEBB5CD2C0259A000E51472 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FEBB5D42C02871500E51472 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBB5D52C02874E00E51472 /* Collection+Extensions.swift */,
+				9FEBB5D72C02876D00E51472 /* Dimension+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9FEBB5D92C02879000E51472 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBB5DA2C0287A200E51472 /* CaseIterableDimension.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9FEBB5DE2C0287DC00E51472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBB5DC2C0287CB00E51472 /* AvailableMeasure.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEBB5DB2C0287A200E51472 /* CaseIterableDimension.swift in Sources */,
 				9FEBB5C92C02599F00E51472 /* ContentView.swift in Sources */,
+				9FEBB5DD2C0287CB00E51472 /* AvailableMeasure.swift in Sources */,
 				9FEBB5C72C02599F00E51472 /* MeasureMagicApp.swift in Sources */,
+				9FEBB5D82C02876D00E51472 /* Dimension+Extensions.swift in Sources */,
+				9FEBB5D62C02874E00E51472 /* Collection+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
